@@ -1,0 +1,5 @@
+tmp/
+arduino/doc
+
+*node_modules*
+*build*

@@ -1,0 +1,33 @@
+{
+  "name": "server",
+  "clientName": "server",
+  "server":     {},
+  "project": "lab1",
+  "mqtt": {
+    "url": "mqtt://labtime.org:1883",
+    "username": "data",
+    "password": "datawp",
+    "connectTimeout": 4000,
+    "reconnectPeriod": 10000
+  },
+  "subscribeTopics": {
+    "admin": "PROJECT/admin/#"
+  },
+  "publishTopics": {
+    "status": "PROJECT/admin/statusReport/server"
+  },
+  "clients": {
+    "all": {
+      "name": "Select all"
+    },
+    "controller": {},
+    "hmi1": {},
+    "server": {},
+    "epiclc": {},
+    "riolc": {},
+    "arduino2": {},
+    "arduino3": {},
+    "arduino4": {},
+    "arduino5": {}
+  }
+}
